@@ -1,0 +1,15 @@
+
+.instructions{
+    /* Ao adicionar um display no estilo de flex, a img e o p são centralizados com o flexbox (flex-direction: ) ; */
+    display: flex;
+    /* Os itens ficam alinhados verticalmente por ter usado o column */
+    flex-direction: column;
+    /* O align centraliza os itens  */
+    align-items: center;
+  }
+  
+  .instructions img{
+    width: 100px;
+    height: 120px;
+  }
+  
